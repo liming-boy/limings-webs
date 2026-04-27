@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liming 2</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Proj1.css">
+
+</head>
+
+<body class="font-sans antialiased text-white text-center min-h-screen
+          flex flex-col items-center bg-slate-900">
+
+  <!--div for the whole first section-->
+  <div class="flex flex-col items-center justify-center px-4 pt-4 pb-12 gap-12 ">
+
+    <!-- top bar -->
+    <div class="mt-8 mx-8  max-w-[1440px]  border border-white/10 
+            backdrop-blur-md bg-white/5 py-4 px-6 rounded-[20px]
+            shadow-[0_0_15px_0_rgba(0,0,0,0.07),0_25px_50px_-12px_rgba(0,0,0,0.25)]
+            flex items-center justify-between w-full max-w-[1000px] ">
+
+      <!-- navigation -->
+      <nav class="flex items-center space-between justify-center gap-6">
+
+        <!-- logo -->
+        <h5 class="text-"><a href="#" class="text-white font-bold hover:text-blue-300">Weeb</a></h5>
+
+        <!-- menu button for mobile-->
+        <button id="menuBtn" class="md:hidden text-white">☰</button>
+
+        <!-- dropdown : hidden for mobile only-->
+        <span id="menu" class="hidden md:flex flex-col md:flex-row items:center space-between justify-center gap-6">
+          <a href="#" class="text-white hover:text-blue-300">About</a>
+          <a href="#" class="text-white hover:text-blue-300">Solutions</a>
+          <a href="#" class="text-white hover:text-blue-300">Pricing</a>
+          <a href="#" class="text-white hover:text-blue-300">Resources</a>
+        </span>
+      </nav>
+
+      <!-- login and join buttons -->
+
+
+      <!--problem , alter the div with span-->
+      <span class="flex  items-center space-between justify-center gap-6">
+        <a href="#" class=" text-white hover:text-blue-300">Login</a>
+        <a href="#" class="border-[#9333EA] border-2  bg-[#9333EA] p-3 
+                      rounded-lg text-white hover:text-blue-300 8px">Join Now</a>
+      </span>
+      <!--problem , alter the div with span-->
+
+    </div>
+
+
+    <span class="flex flex-col gap-8 w-full">
+      <!-- hero section -->
+      <h1 class="gap-2 w-full font-extrabold text-7xl text-white leading-tight"> Design
+        <span class="underline decoration-purple-600">Faster</span>
+        <span class="text-[#9333EA]">& </span>
+        <span class="overline decoration-purple-600">Better</span>
+
+      </h1>
+
+      <p class="font-normal text-base leading-[140%] text-white gap-2 w-full">
+        Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.
+        Pharetra, eu imperdiet ipsum ultrices amet, dui sit suspendisse.
+      </p>
+
+      <!-- buttons -->
+      <span class="gap-4 flex w-full items-center justify-center">
+        <p class="w-[168px] rounded-lg border-2 p-4 border-purple-600 font-medium text-xl tracking-[0.5px] leading-6 bg-purple-600">Join Now</p>
+        <p class="w-[168px] rounded-lg border-2 p-4 border-white font-medium text-xl tracking-[0.5px] leading-6">View Demo</p>
+      </span>  
+    </span>
+    
+  
+
+
+  </div>
+
+  <!--2 combined image section -->
+  <span class="flex flex-col  rounded-[20px] overflow-hidden  items-center justify-center mt-12 bg-white w-full">
+    <img src="Top Bar.png" alt="placeholder" class="w-full">
+    <img src="daplaceholder.png" alt="placeholder" class="w-full ">
+  </span>
+
+  </div> <!-- from hero to combined images-->
+
+  <!-- companies section -->
+  <div class="flex flex-col items-center justify-center p-20 gap-8 w-full">
+    <h2 class="w-full font-extrabold text-[40px] gap-8">Join Leading Companies</h2>
+    <span class="flex flex-col items-center justify-center md:gap-20 w-full">
+
+    <p class="flex flex-row items-center justify-center w-[361px]  gap-6">
+      <img src="Logo-grey.svg" alt="SmartFinder" class="w-full gap-2">
+      <img src="Logo-grey2.svg" alt="SmartFinder" class="w-full gap-2"></p>
+    <p class="flex flex-row items-center justify-center w-[361px] gap-6">
+      <img src="Logo-grey3.svg" alt="SmartFinder" class="w-full gap-2">
+      <img src="Logo-grey4.svg" alt="SmartFinder" class="w-full gap-2"></p>
+    <p class="flex flex-row items-center justify-center w-[361px] gap-6">
+      <img src="Logo-grey5.svg" alt="SmartFinder" class="w-full gap-2">
+    </p>
+
+    </span>
+
+    <!--<span class="flex flex-row flex-wrap items-center justify-center gap-20 w-full">
+
+      <img src="Logo-grey.svg" alt="SmartFinder" class="">
+      <img src="Logo-grey2.svg" alt="SmartFinder" class=""></p>
+      <img src="Logo-grey3.svg" alt="SmartFinder" class="">
+      <img src="Logo-grey4.svg" alt="SmartFinder" class=""></p>
+      <img src="Logo-grey5.svg" alt="SmartFinder" class="">
+    </p>
+
+    </span>
+
+
+
+  
+    <div class="flex flex-wrap items-center justify-center gap-6 w-full">
+    <img src="Logo-grey.svg" alt="SmartFinder" class="w-[150px]">
+    <img src="Logo-grey2.svg" alt="SmartFinder" class="w-[150px]">
+    <img src="Logo-grey3.svg" alt="SmartFinder" class="w-[150px]">
+    <img src="Logo-grey4.svg" alt="SmartFinder" class="w-[150px]">
+    <img src="Logo-grey5.svg" alt="SmartFinder" class="w-[150px]">
+  </div>
+-->
+
+  </div>
+
+  <!-- discover section -->
+  <div class="flex flex-col items-center md:flex-row flex-wrap w-full min-w-[80px] flex-1 p-20 gap-[84px] ">
+
+    <!-- discover to discover ideas-->
+
+    <span class="flex flex-col min-w-[80px]">
+      <p class="h-5 md:text-left  text-uppercase tracking-[3px] mb-[5px] leading-none">Discover</p>
+      <h1 class="text-center md:text-left font-extrabold text-[40px] gap-8">
+        <p class="text-purple-600">Unlimited</p>ideas for your next great projects
+      </h1>
+
+    </span>
+
+    <span class="flex w-[375px] min-w-[80px]">
+      <img src="Shapes.png" alt="shapes" class="w-full h-auto ">
+    </span>
+
+
+
+
+  </div>
+
+  <!-- powerful text section -->
+  <div class="flex flex-col md:flex-row md:flex-row-reverse items-center justify-center  
+                w-full border-b-[1px] py-12 px-4 gap-12">
+    <span class="">
+      <img src="lightning.webp" alt="section image" class="w-full h-auto rounded-[20px] ">
+    </span>
+    <span class="flex flex-col md:text-left items-center md:items-start justify-center gap-8 ">
+      <h1 class="font-bold text-xl tracking-[3px] ">POWERFUL</h1>
+      <h4 class="text-[40px] font-bold ">All the tools you can imagine</h4>
+      <p class="text-base leading-[1.4] ">Scelerisque auctor dolor diam tortor, fames faucibus
+        non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia.</p>
+
+
+    </span>
+
+  </div>
+
+  <!-- customer text section-->
+  <div class="flex flex-col md:flex-row md:flex-row-reverse items-center justify-center  
+                w-full border-b-[1px] py-12 px-4 gap-12">
+    <span class="">
+      <img src="Shapes (2).png" alt="section image" class="w-full h-auto rounded-[20px] justify-start">
+    </span>
+    <span class="flex flex-col md:text-left items-center md:items-start justify-center gap-8 ">
+      <h1 class="font-bold text-xl tracking-[3px] "> CUSTOMERS</h1>
+      <h4 class="text-[40px] font-bold "><span class="text-purple-400">Target</span> customers with our powerful AI kit
+      </h4>
+      <p class="text-base leading-[1.4] ">Scelerisque auctor dolor diam tortor, fames faucibus
+        non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia.</p>
+      <span class="gap-4 w-full flex flex-row items-center justify-center">
+        <p class="font-medium h-6 tracking-[0.5px]">How Targeting Customers Works</p>
+        <img src="arrow-right.png" alt="arrow" class="w-6 h-6">
+      </span>
+
+  </div>
+
+  <!--  -->
+  <div class="flex flex-col md:flex-row md:flex-row-reverse items-center justify-center  
+                w-full border-b-[1px] py-12 px-4 gap-12">
+    <span class="">
+      <img src="cat.webp" alt="section image" class="w-full h-auto rounded-[20px] justify-start">
+    </span>
+    <span class="flex flex-col md:text-left items-center md:items-start justify-center gap-8 ">
+      <h1 class="font-bold text-xl tracking-[3px] "> SPEED</h1>
+      <h4 class="text-[40px] font-bold ">Work fast, w/o interruptions</h4>
+      <p class="text-base leading-[1.4] ">Scelerisque auctor dolor diam tortor, fames faucibus
+        non interdum nunc. Ultrices nibh sapien elit gravida ac, rutrum molestie adipiscing lacinia.</p>
+
+  </div>
+
+
+  <!-- testimonial texts  -->
+  <div class="flex items-center justify-center flex-col md:flex-row md:items-start 
+                w-full px-4 py-12 gap-8 bg-purple-900">
+    <span class="flex flex-col items-center md:items-start justify-center gap-8 ">
+      <p class="font-bold text-xl tracking-[3px] ">TESTIMONIALS</p>
+      <h4 class="text-[40px] font-bold leading-[110.00000000000001%]">Bigapp got to the next level</h4>
+      <a href="#" class="flex flex-row px-2 py-3 rounded-lg ">
+        <p class="leading-6 text-base tracking-[0.5px] font-medium">View Case Study</p>
+        <img src="arrow-right.png" alt="arrow" class="w-6 h-6">
+      </a>
+    </span>
+
+    <span class=" ">
+      <img src="app placeholder.png" alt="testimonial image" class="w-full  h-auto rounded-[50px]  
+          shadow-[0_0_15px_0_rgba(0,0,0,0.07),0_25px_50px_-12px_rgba(0,0,0,0.25)]">
+
+    </span>
+
+    <span class="h-full flex flex-col items-start gap-4">
+
+      <p class="font-normal text-lg leading-[160%] w-[361px] ">“Viverra viverra nibh enim et aliquam, enim. Tempor, sit
+        mus viverra orci dui consequat turpis scelerisque faucibus.”</p>
+      <span class="flex items-start flex-row w-full gap-4">
+        <img src="User Thumb.png" alt="co-founder" class="h-16 w-16 rounded-[100px] gap-[10px]">
+        <span class="flex flex-col items-start text-start">
+          <p class="font-normal text-lg leading-[160%] w-[281px] h-[29px]">Rwanda Melflor</p>
+          <p class="font-normal text-base leading-[140%]  w-[281px] h-[22px]">Co-founder, Bigapp</p>
+        </span>
+      </span>
+    </span>
+
+  </div>
+
+  <!-- horse to buy tickets-->
+  <div class="bg-white w-full flex flex-col py-12 px-4 gap-6 border-b-[1px] text-black">
+    <span class="flex flex-col border-r-[3px] gap-4">
+      <h4 class="font-bold text-[40px] items-center justify-center 
+          leading-[110.00000000000001%]">Design events near your</h4>
+      <a href="#" class="flex flex-row items-center justify-center px-3 py-3 rounded-lg text-purple-600">
+        <p class="leading-6 text-base tracking-[0.5px] font-medium">Explore Events</p>
+        <img src="arrow-right-pink.png" alt="arrow" class="w-6 h-6">
+      </a>
+    </span>
+
+
+    <span class="w-full gap-6 flex flex-col items-start justify-center relative">
+      <img src="horse.png" class="w-full flex gap-[10px] items-center justify-center" alt="horse image">
+      <p class="absolute px-1 rounded-[4px] bg-purple-100 text-purple-800 font-normal
+             text-sm leading-[140%] top-3 left-2">Design Thinking</p>
+
+    </span>
+
+    <span class="flex flex-col items-start text-start justify-center pt-6 pb-4 gap-2 w-full">
+      <p class=" w-full text-base font-medium leading-[110.00000000000001%]
+             text-[#0F172A]">Design Thinking</p>
+      <h5 class="text-2xl font-bold leading-[110.00000000000001%]  mb-[5px]">Wild Horse Event</h5>
+
+    </span>
+
+    <span class="flex flex-row text-purple-600 gap-4">
+      <p class="pr-4 font-medium text-base leading-[24px] tracking-[.5px] ">
+        Buy Tickets
+      </p>
+      <img src="arrow-right-pink.png" alt="arrow" class="w-6 h-6">
+
+    </span>
+
+    <span class="w-full gap-6 flex flex-col items-start justify-center relative">
+      <img src="atosbaji.png" class="w-full flex gap-[10px] items-center justify-center" alt="atosbaji">
+      <p class="absolute px-1 rounded-[4px] bg-purple-100 text-purple-800 font-normal
+             text-sm leading-[140%] top-3 left-2">Festival</p>
+
+    </span>
+
+    <span class="flex flex-col items-start text-start justify-center pt-6 pb-4 gap-2 w-full">
+      <p class=" w-full text-base font-medium leading-[110.00000000000001%]
+             text-[#0F172A]">Festival</p>
+      <h5 class="text-2xl font-bold leading-[110.00000000000001%]  mb-[5px]">Music & Colors</h5>
+
+    </span>
+
+    <span class="flex flex-row text-purple-600 gap-4">
+      <p class="pr-4 font-medium text-base leading-[24px] tracking-[.5px] ">
+        Buy Tickets
+      </p>
+      <img src="arrow-right-pink.png" alt="arrow" class="w-6 h-6">
+
+    </span>
+
+    <span class="w-full gap-6 flex flex-col items-start justify-center relative">
+      <img src="hat.png" class="w-full flex gap-[10px] items-center justify-center" alt="atosbaji">
+      <p class="absolute px-1 rounded-[4px] bg-purple-100 text-purple-800 font-normal
+             text-sm leading-[140%] top-3 left-2">Festival</p>
+
+    </span>
+
+    <span class="flex flex-col items-start text-start justify-center pt-6 pb-4 gap-2 w-full">
+      <p class=" w-full text-base font-medium leading-[110.00000000000001%]
+             text-[#0F172A]">Bootcamp</p>
+      <h5 class="text-2xl font-bold leading-[110.00000000000001%]  mb-[5px]">Happy Father's Day</h5>
+
+    </span>
+
+    <span class="flex flex-row text-purple-600 gap-4">
+      <p class="pr-4 font-medium text-base leading-[24px] tracking-[.5px] ">
+        Buy Tickets
+      </p>
+      <img src="arrow-right-pink.png" alt="arrow" class="w-6 h-6">
+
+    </span>
+
+
+
+  </div>
+
+  <!-- footer -->
+  <div
+    class="flex flex-col md:flex-row items-center justify-center text-slate-900 pt-4 pb-4 gap-12 border-b  w-full bg-white border-slate-200">
+    <span class=""></span>
+    <h5 class="font-bold text-[32px] spreading-[110.00000000000001%] tracking-[5px] text-center">weeb</h5>
+    </span>
+
+    <!-- first span of footer-->
+    <span class="flex flex-col font-normal text-base py-3 gap-2 leading-[140%] text-slate-900 ">
+      <p class="font-medium text-base leading-[110.00000000000001%] text-slate-400">PRODUCT</p>
+      <a href="#" class="py-3">Pricing</a>
+      <a href="#" class="py-3">Overview</a>
+      <a href="#" class="py-3">Browse</a>
+      <a href="#" class="py-3">Accessibility</a>
+      <a href="#" class="py-3">Five</a>
+
+    </span>
+
+    <!-- second span of footer-->
+    <span class="flex flex-col font-normal text-base py-3 gap-2 leading-[140%] text-slate-900 ">
+      <p class="font-medium text-base leading-[110.00000000000001%] text-slate-400">SOLUTIONS</p>
+      <a href="#" class="py-3">Brainstorming</a>
+      <a href="#" class="py-3">Ideation</a>
+      <a href="#" class="py-3">Wireframing</a>
+      <a href="#" class="py-3">Research</a>
+    </span>
+
+    <!-- third span of footer-->
+    <span class="flex flex-col font-normal text-base py-3 gap-2 leading-[140%] text-slate-900 ">
+      <p class="font-medium text-base leading-[110.00000000000001%] text-slate-400">RESOURCES</p>
+      <a href="#" class="py-3">Help Center</a>
+      <a href="#" class="py-3">Blog</a>
+      <a href="#" class="py-3">Tutorials</a>
+    </span>
+
+    <!-- fourth span of footer-->
+    <span class="flex flex-col font-normal text-base py-3 gap-2 leading-[140%] text-slate-900 ">
+      <p class="font-medium text-base leading-[110.00000000000001%] text-slate-400">COMPANY</p>
+      <a href="#" class="py-3">About</a>
+      <a href="#" class="py-3">Press</a>
+      <a href="#" class="py-3">Events</a>
+      <a href="#" class="py-3">Careers</a>
+    </span>
+
+
+
+
+  </div>
+
+  <footer class="flex flex-col py-12 gap-6 w-full bg-white text-slate-900 items-center justify-center">
+
+    <!-- copy right disclaimer -->
+    <span>
+      <p class="font-normal text-base leading-[140%]">@ 2023 Weeb, Inc. All rights reserved.</p>
+    </span>
+
+    <!--social links-->
+    <span class="flex flex-row w-full items-center justify-center gap-4">
+      <a href="#"><img src="youtube.svg" alt="youtube" class="w-6 h-6"></a>
+      <a href="#"><img src="facebook.svg" alt="facebook" class="w-6 h-6"></a>
+      <a href="#"><img src="twitter.svg" alt="twitter" class="w-6 h-6"></a>
+      <a href="#"><img src="instagram.svg" alt="instagram" class="w-6 h-6"></a>
+      <a href="#"><img src="linkedin.svg" alt="linkedin" class="w-6 h-6"></a>
+
+    </span>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
